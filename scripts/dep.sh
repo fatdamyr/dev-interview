@@ -10,7 +10,7 @@ apt-get -y install curl
 
 #Install Java
 apt-get -y install openjdk-7-jdk
-echo "export JAVA_HOME=/usr/lib/jvm/open-jdk" > /etc/profile.d/jdk_home
+#echo "export JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64" > /etc/profile.d/jdk_home
 
 #Install Ant
 curl http://mirror.cogentco.com/pub/apache//ant/binaries/apache-ant-1.9.6-bin.tar.gz > apache-ant-1.9.6-bin.tar.gz
@@ -30,7 +30,12 @@ ln -s /usr/local/apache-maven/bin/mvn /usr/bin/mvn
 apt-get -y install kde-plasma-desktop
 
 #Install Eclipse
-curl http://eclipse.mirror.rafal.ca/technology/epp/downloads/release/mars/R/eclipse-jee-mars-R-linux-gtk.tar.gz > eclipse.tar.gz
+curl http://mirror.cc.columbia.edu/pub/software/eclipse/technology/epp/downloads/release/mars/R/eclipse-jee-mars-R-linux-gtk-x86_64.tar.gz > eclipse.tar.gz
 tar xvf eclipse.tar.gz
 mv eclipse /usr/local/eclipse
 rm eclipse.tar.gz
+
+#Shortcuts for Eclipse, Firefox
+
+#Instructions
+
