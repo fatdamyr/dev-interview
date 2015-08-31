@@ -25,8 +25,11 @@ tar xvf apache-maven-3.3.3-bin.tar.gz
 mv apache-maven-3.3.3 /usr/local/apache-maven
 rm apache-maven-3.3.3-bin.tar.gz
 ln -s /usr/local/apache-maven/bin/mvn /usr/bin/mvn
+
+#Install Git
+apt-get install -y git
 	
-#Install KDE Desktop
+#Install xfce desktop
 apt-get -y install xubuntu-desktop
 
 #Install Eclipse
