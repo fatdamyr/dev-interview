@@ -27,7 +27,7 @@ rm apache-maven-3.3.3-bin.tar.gz
 ln -s /usr/local/apache-maven/bin/mvn /usr/bin/mvn
 	
 #Install KDE Desktop
-apt-get -y install kde-plasma-desktop
+apt-get -y install xubuntu-desktop
 
 #Install Eclipse
 curl http://mirror.cc.columbia.edu/pub/software/eclipse/technology/epp/downloads/release/mars/R/eclipse-jee-mars-R-linux-gtk-x86_64.tar.gz > eclipse.tar.gz
