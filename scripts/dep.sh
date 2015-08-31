@@ -39,5 +39,9 @@ mv eclipse /usr/local/eclipse
 rm eclipse.tar.gz
 
 #Shortcuts for Eclipse, Firefox
+mkdir ~vagrant/Desktop
+ln -s /usr/local/eclipse/eclipse ~vagrant/Desktop/Eclipse
+ln -s /usr/bin/firefox ~vagrant/Desktop/Firefox
+chown -R vagrant:vagrant ~vagrant/Desktop
 
 
