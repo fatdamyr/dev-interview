@@ -40,5 +40,4 @@ rm eclipse.tar.gz
 
 #Shortcuts for Eclipse, Firefox
 
-#Instructions
 
