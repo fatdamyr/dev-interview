@@ -32,6 +32,9 @@ apt-get install -y git
 #Install xfce desktop
 apt-get -y install --no-install-recommends xubuntu-desktop
 
+#Install Firefox
+apt-get -y install firefox
+
 #Install Eclipse
 curl http://mirror.cc.columbia.edu/pub/software/eclipse/technology/epp/downloads/release/mars/R/eclipse-jee-mars-R-linux-gtk-x86_64.tar.gz > eclipse.tar.gz
 tar xvf eclipse.tar.gz
