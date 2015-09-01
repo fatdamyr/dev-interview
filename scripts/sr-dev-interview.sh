@@ -11,7 +11,3 @@ mvn clean package
 #Clean up the solution code
 cd ..
 rm -rf dev-interview-solutions
-
-#Move the maven repository to the 
-mv ~/.m2 ~vagrant/.m2
-chown -R vagrant:vagrant ~vagrant/.m2
