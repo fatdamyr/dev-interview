@@ -30,7 +30,7 @@ ln -s /usr/local/apache-maven/bin/mvn /usr/bin/mvn
 apt-get install -y git
 	
 #Install xfce desktop
-apt-get -y install --no-install-recommends xubuntu-desktop
+apt-get -y install xubuntu-desktop
 
 #Install Firefox
 apt-get -y install firefox
