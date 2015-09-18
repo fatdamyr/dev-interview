@@ -30,7 +30,7 @@ ln -s /usr/local/apache-maven/bin/mvn /usr/bin/mvn
 apt-get install -y git
 	
 #Install xfce desktop
-apt-get -y install xubuntu-desktop
+apt-get -y install --no-install-recommends xubuntu-desktop
 
 #Install Firefox
 apt-get -y install firefox
@@ -46,5 +46,8 @@ mkdir ~vagrant/Desktop
 ln -s /usr/local/eclipse/eclipse ~vagrant/Desktop/Eclipse
 ln -s /usr/bin/firefox ~vagrant/Desktop/Firefox
 chown -R vagrant:vagrant ~vagrant/Desktop
+
+#Upgrade existing packages
+apt-get -y upgrade
 
 
